@@ -1,0 +1,22 @@
+.header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-color: #FAE1BE;
+  }
+
+  &__descr {
+    text-align: center;
+    max-width: 260px;
+    line-height: 1.5;
+    color: #818FB3;
+  }
+}
